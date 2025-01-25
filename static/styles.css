@@ -1,0 +1,124 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F3F2EF;
+    color: #333333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #0A66C2;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 16px;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0A66C2;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Contenedor principal */
+.container {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+/* Titulares */
+h1 {
+    text-align: center;
+    color: #0A66C2;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Formularios */
+label {
+    display: block;
+    margin-top: 15px;
+    color: #555555;
+    font-weight: bold;
+}
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+    font-size: 14px;
+}
+
+/* Botones */
+button, .btn {
+    background-color: #0A66C2;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+    font-weight: bold;
+}
+button:hover, .btn:hover {
+    background-color: #084298;
+}
+
+/* Links */
+.link {
+    text-align: center;
+    margin-top: 15px;
+}
+.link a {
+    color: #0A66C2;
+    text-decoration: none;
+    font-size: 14px;
+}
+.link a:hover {
+    text-decoration: underline;
+}
+
+/* Mensajes */
+.success {
+    background-color: #DFF0D8;
+    color: #3C763D;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.error {
+    background-color: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}

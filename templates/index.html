@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Herramienta ISO 50001</title>
+    <title>Inicio - Herramienta ISO 50001</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <h1>Bienvenido a la herramienta ISO 50001</h1>
+    <header class="navbar">
+        <div>Herramienta ISO 50001</div>
+        <nav>
+            <a href="/">Inicio</a>
+            <a href="/register">Registro</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Bienvenido a la herramienta ISO 50001</h1>
+        <p>Optimiza tus cálculos de eficiencia energética siguiendo los estándares ISO 50001.</p>
+        <a href="/register" class="btn">Regístrate ahora</a>
+        <a href="/login" class="btn">Iniciar sesión</a>
+    </div>
+
+    <footer>
+        &copy; 2025 Herramienta ISO 50001. Todos los derechos reservados.
+    </footer>
 </body>
 </html>
